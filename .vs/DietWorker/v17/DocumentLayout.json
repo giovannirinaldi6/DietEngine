@@ -42,8 +42,7 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-22T10:38:04.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T10:38:04.396Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-22T10:25:44.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T10:25:44.381Z"
             },
             {
               "$type": "Document",
@@ -66,7 +64,7 @@
               "RelativeDocumentMoniker": "Services\\DietService.cs",
               "ToolTip": "C:\\Users\\Giovanni\\Desktop\\DietaEngine\\DietEngine2\\DietWorker\\Services\\DietService.cs",
               "RelativeToolTip": "Services\\DietService.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAowCkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-20T20:31:38.59Z",
               "EditorCaption": ""
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T20:24:10.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T20:24:10.798Z"
             }
           ]
         }
