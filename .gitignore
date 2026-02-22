@@ -10,10 +10,11 @@ data/
 *.user
 *.suo
 *.vscode/
-*.vs
+*.vs/
 
 # Database locali
 *.db
 
 # Log
 *.log
+/appsettings.json

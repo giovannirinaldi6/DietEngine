@@ -33,7 +33,8 @@ builder.ConfigureServices((hostContext, services) =>
 
     // Registra EmailService come singleton usando le opzioni
     services.AddSingleton<EmailService>();
-
+    
+    var cronExpression = hostContext.Configuration["Cron:Expression"] ?? "0 0 11 * * ?";
     // Quartz
     services.AddQuartz(q =>
     {
@@ -45,7 +46,7 @@ builder.ConfigureServices((hostContext, services) =>
         q.AddTrigger(opts => opts
             .ForJob(jobKey)
             .WithIdentity("DailyRecommendationTrigger")
-            .WithCronSchedule("0 0 11 * * ?")); // Cron: 11:00 ogni giorno
+            .WithCronSchedule(cronExpression)); // Cron: 11:00 ogni giorno
     });
 
     services.AddQuartzHostedService(q => q.WaitForJobsToComplete = true);

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Worker">
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -7,6 +7,7 @@
     <UserSecretsId>dotnet-DietWorker-cc1fa4d0-f882-48c5-acc8-ab2f040613b7</UserSecretsId>
   </PropertyGroup>
 
+	
   <ItemGroup>
     <PackageReference Include="HtmlAgilityPack" Version="1.12.4" />
     <PackageReference Include="MailKit" Version="4.15.0" />
