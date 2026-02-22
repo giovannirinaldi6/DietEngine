@@ -1,0 +1,18 @@
+# Configuration Files
+appsettings.json
+
+# Folders bin and obj
+bin/
+obj/
+data/
+
+# File utente di Visual Studio
+*.user
+*.suo
+*.vscode/
+
+# Database locali
+*.db
+
+# Log
+*.log

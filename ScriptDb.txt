@@ -1,0 +1,21 @@
+CREATE TABLE
+  MealHistory (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Date TEXT NOT NULL,
+    DishName TEXT NOT NULL,
+    ProteinCategory TEXT, -- opzionale se non serve più la proteina
+    TipologiaPiatto TEXT NOT NULL, -- Primo | Secondo | Piatto unico | Insalata | Dolce
+    CarbCategory TEXT,
+    CookingType TEXT,
+    VarietyScore INTEGER DEFAULT 0 -- livello_equilibrio
+  )
+
+
+  CREATE TABLE
+  PastiNonConsentiti (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Name TEXT NOT NULL, -- Nome del piatto o ingrediente
+    Type TEXT NOT NULL, -- 'Ingrediente' o 'Piatto'
+    Reason TEXT, -- motivazione (allergia, preferenza, ecc.)
+    AddedOn TEXT NOT NULL DEFAULT (date('now')) -- data inserimento
+  )

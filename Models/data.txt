@@ -1,0 +1,1 @@
+Scaffold-DbContext "Name=ConnectionStrings:DefaultConnection" Microsoft.EntityFrameworkCore.Sqlite -OutputDir Models -ContextDir Models -Context AppDbContext -UseDatabaseNames -Force
